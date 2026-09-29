@@ -1,35 +1,36 @@
-# 🎨 Modern Art Gallery - CSS Tarea Entregable 3
+# CSS Tarea entregable 3 - Modern Art Gallery
 
-Este proyecto es la tercera tarea entregable de CSS. Consiste en el desarrollo de un mini-sitio web interactivo y responsivo de dos vistas para una galería de arte moderno, basándose en un diseño proporcionado en Figma.
+📢 ¡Hola a tod@s!
 
-## 🔗 Enlaces
+Tercera tarea entregable de CSS. En esta ocasión, desarrollaremos un mini-site de dos vistas con responsive para una web de Modern Art Gallery. A continuación, os dejo los requerimientos y el proceso de entrega.
 
-- **URL del Repositorio:** [Inserta aquí el enlace de tu repositorio]
-- **Demo en Vivo (GitHub Pages):** [Inserta aquí el enlace de tu web publicada]
+Archivos necesarios para la realización. Es un fichero figma que podrás importar en tu propia cuenta.
 
-## 🎯 Objetivos y Requerimientos del Proyecto
+## 📌 Requerimientos
 
-Este proyecto ha sido desarrollado cumpliendo con los siguientes requerimientos técnicos y de diseño:
+- ✅ **Boilerplate:** Podéis elegir el que prefiráis como punto de partida.
+- ✅ **Uso de SASS:** No es obligatorio, pero lo recomiendo para mejorar la organización del código.
+- ✅ **Recursos de diseño:** En la sección de archivos de la clase encontraréis el fichero de Figma, para que podáis abrirlo en vuestra cuenta y exportar los assets según lo necesitéis.
+- ✅ **Iconos en SVG:** Siempre que sea posible, utilizad iconos en formato SVG en lugar de imágenes rasterizadas.
+- ✅ **Semántica:** Se valorará no solo la parte visual, sino también la correcta estructura y semántica del código.
+- ✅ **Fidelidad al diseño:** Para aprobar el proyecto, el resultado debe ser lo más parecido posible a la versión estática del PDF.
+- ✅ **Interactividad:** Los elementos interactuables (botones, enlaces, etc.) deben contar con su estado hover.
+- ✅ **Resonsive:** Maquetar con mobile first, es decir, empezando desde móvil hacia arriba haciendo uso de media querys.
 
-- **Mobile First:** Maquetación responsiva comenzando desde dispositivos móviles hacia pantallas más grandes haciendo uso de *Media Queries*.
-- **Fidelidad al Diseño:** El resultado visual es lo más exacto posible al diseño estático (Figma/PDF) original.
-- **HTML Semántico:** Estructuración correcta de las etiquetas HTML5 para mejorar la accesibilidad y el SEO.
-- **Uso de SASS (Recomendado):** Organización y optimización del código CSS mediante el preprocesador SASS.
-- **Iconografía:** Uso exclusivo de iconos en formato **SVG** (nada de imágenes rasterizadas) para mantener la calidad gráfica.
-- **Interactividad:** Todos los elementos interactuables (botones, enlaces de navegación, etc.) cuentan con sus respectivos estados `:hover`.
-- **Boilerplate:** Uso de un HTML Boilerplate estándar como punto de partida.
+## 📤 Entrega
 
-## 🛠️ Tecnologías Utilizadas
+### 📌 Repositorio:
 
-- **HTML5** (Semántico)
-- **CSS3** / **SASS** (SCSS)
-- **Figma** (Extracción de assets y medidas)
-- **GitHub / GitHub Pages** (Control de versiones y despliegue)
+Debéis crear un repositorio específico para este proyecto.
+Se requerirá el enlace al repositorio para la evaluación.
 
-## 🚀 Instalación y Despliegue Local
+### 📌 Enlace público:
 
-Si deseas descargar y ejecutar este proyecto localmente:
+Subid el proyecto a GitHub Pages o una plataforma similar. Te dejo enlace de la clase donde se explica.
+Se requerirá un enlace público para la corrección.
 
-1. Clona este repositorio:
-   ```bash
-   git clone [URL_DE_TU_REPOSITORIO]
+### 📌 Formulario de entrega:
+
+[Entrega aquí]
+
+Una vez entregada, haz una captura y adjúntala en la parte inferior de esta página para que quede registrado en la plataforma. En ella te pondrán la nota asociada.
