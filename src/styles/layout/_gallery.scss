@@ -1,0 +1,200 @@
+@use "../abstracts" as a;
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  margin-bottom: 80px;
+
+  @include a.breakpoint(tablet) {
+    padding: 40px;
+  }
+
+  @include a.breakpoint(desktop) {
+    padding: 100px 160px 100px 160px;
+    gap: 30px;
+  }
+
+  picture,
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+
+    &-content {
+      padding: 8px 0;
+    }
+
+    &-title {
+      @include a.heading-m;
+      color: a.$black;
+      margin-bottom: 24px;
+
+      @include a.breakpoint(desktop) {
+        @include a.heading-l;
+        br {
+          display: none;
+        }
+      }
+    }
+
+    &-subtitle {
+      @include a.body-s;
+      color: a.$grey;
+
+      @include a.breakpoint(desktop) {
+        @include a.body-m;
+      }
+    }
+
+    @include a.breakpoint(tablet) {
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 48px;
+
+      &-content {
+        width: 55%;
+      }
+
+      &-image {
+        width: 45%;
+      }
+    }
+
+    @include a.breakpoint(desktop) {
+      gap: 120px;
+      justify-content: space-between;
+
+      &-content {
+        width: 310px;
+      }
+
+      &-image {
+        flex: 1;
+        width: auto;
+
+        img {
+          aspect-ratio: auto;
+        }
+      }
+    }
+  }
+
+  &_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &-image1 img {
+      width: 100%;
+      aspect-ratio: 5 / 7;
+      object-fit: cover;
+      object-position: bottom;
+      display: block;
+    }
+
+    &-image2 img {
+      width: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      display: block;
+    }
+
+    &-content {
+      background-color: a.$black;
+      padding: 48px 24px;
+    }
+
+    &-title {
+      @include a.heading-m;
+      text-transform: uppercase;
+      color: a.$white;
+      margin-bottom: 24px;
+      @include a.breakpoint(desktop) {
+        @include a.heading-l;
+      }
+    }
+
+    &-subtitle {
+      @include a.body-s;
+      color: a.$white;
+      @include a.breakpoint(desktop) {
+        @include a.body-m;
+      }
+    }
+
+    @include a.breakpoint(tablet) {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 12px;
+
+      &-image1 {
+        grid-column: 1 /2;
+        grid-row: 1 / 3;
+
+        img {
+          width: 100%;
+          height: 100%;
+          aspect-ratio: auto;
+          object-fit: cover;
+        }
+      }
+
+      &-image2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+
+        img {
+          height: 100%;
+          aspect-ratio: auto;
+        }
+      }
+
+      &-content {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 72px 28px;
+      }
+    }
+
+    @include a.breakpoint(desktop) {
+      gap: 30px;
+      grid-template-rows: auto 1fr;
+
+      &-image1 {
+        img {
+          height: auto;
+          aspect-ratio: 8 / 9;
+          object-position: center;
+        }
+      }
+
+      &-image2 {
+        img {
+          height: auto;
+        }
+      }
+
+      &-content {
+        padding: 48px 68px;
+      }
+    }
+  }
+}

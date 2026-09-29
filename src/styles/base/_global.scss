@@ -1,0 +1,15 @@
+//Root variables, selection styles, HTML/body base styles (non-typography related), and smooth scrolling.
+
+@use "../abstracts" as a;
+
+html {
+  scroll-behavior: smooth;
+  background-color: a.$white;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}

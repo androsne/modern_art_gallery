@@ -1,0 +1,10 @@
+//resetting the default styles of the browser
+//Structural normalization
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Art Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@800;900&family=Outfit:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <picture class="hero_image">
+          <source
+            media="(min-width: 1200px)"
+            srcset="./src/assets/img/gallery_hero_desktop.jpg"
+          />
+          <img src="./src/assets/img/gallery_hero.jpg" alt="Gallery Hero" />
+        </picture>
+        <div class="hero_content">
+          <h1 class="hero_logo">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./src/assets/img/logo_gallery_white.svg"
+              />
+              <img
+                src="./src/assets/img/logo_gallery_dark.svg"
+                alt="Modern Art Gallery"
+              />
+            </picture>
+          </h1>
+
+          <p class="hero_subtitle">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
+          <a href="location.html" class="btn">
+            <span class="btn_text">Our Location</span>
+            <span class="btn_icon">
+              <img src="./src/assets/icons/arrow_right.svg" alt="Right Arrow" />
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <article class="gallery_2">
+          <picture class="gallery_2-image">
+            <source
+              media="(min-width: 1200px)"
+              srcset="./src/assets/img/gallery_2_desktop.jpg"
+            />
+            <img src="./src/assets/img/gallery_2.jpg" alt="" />
+          </picture>
+          <div class="gallery_2-content">
+            <h2 class="gallery_2-title">
+              Modern <br />
+              art gallery
+            </h2>
+            <p class="gallery_2-subtitle">
+              Wander through our distinct collections and find new insights
+              about our artists. Dive into the details of their creative
+              process.
+            </p>
+          </div>
+        </article>
+
+        <article class="gallery_3">
+          <picture class="gallery_3-image1">
+            <source
+              media="(min-width: 1200px)"
+              srcset="./src/assets/img/gallery_3_desktop.jpg"
+            />
+            <img src="./src/assets/img/gallery_3.jpg" alt="" />
+          </picture>
+          <picture class="gallery_3-image2">
+            <source
+              media="(min-width: 1200px)"
+              srcset="./src/assets/img/gallery_4_desktop.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./src/assets/img/gallery_4_tablet.jpg"
+            />
+            <img src="./src/assets/img/gallery_4.jpg" alt="" />
+          </picture>
+          <div class="gallery_3-content">
+            <h2 class="gallery_3-title">Come & be<br />inspired</h2>
+            <p class="gallery_3-subtitle">
+              We’re excited to welcome you to our gallery and see how our
+              collections influence you.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_container">
+        <a href="" class="logo"
+          ><img
+            src="./src/assets/img/logo_gallery_white.svg"
+            alt="Modern Art Gallery"
+        /></a>
+        <p class="footer_text">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <div class="footer_socials">
+          <a href="#"
+            ><img src="./src/assets/icons/facebook.svg" alt="facebook"
+          /></a>
+          <a href="#"
+            ><img src="./src/assets/icons/insta.svg" alt="instagram"
+          /></a>
+          <a href="#"
+            ><img src="./src/assets/icons/twitter.svg" alt="twitter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

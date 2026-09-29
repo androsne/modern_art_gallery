@@ -1,0 +1,38 @@
+@use "../abstracts" as a;
+
+.btn {
+  display: inline-flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: a.$font-heading;
+  font-weight: 800;
+  letter-spacing: 3px;
+
+  &_text {
+    background-color: a.$black;
+    color: a.$white;
+    padding: 24px 32px;
+    font-size: 20px;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  &_icon {
+    background-color: a.$clay;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+
+  &:hover {
+    .btn_text {
+      background-color: a.$clay;
+    }
+    .btn_icon {
+      background-color: a.$black;
+    }
+  }
+}
